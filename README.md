@@ -17,5 +17,5 @@ targets specified in the dataset, so the accuracy was 100%. Here's a screenshot 
 
 Since the correlation seemed fairly straightforward, I also tried other models like decision trees,
 and it still performed just as well. I chose to submit the one with logistic regression just because
-I felt like it didn't really matter, and it is in general a good solution to binary classification
+I felt like it didn't really matter, and it is in general a good approach to binary classification
 problems.
