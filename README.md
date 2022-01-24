@@ -14,3 +14,8 @@ that the model was always highly confident in its predictions. The predictions a
 targets specified in the dataset, so the accuracy was 100%. Here's a screenshot of the predictions:
 
 ![Chart of predicted probabilities](./probabilities.png)
+
+Since the correlation seemed fairly straightforward, I also tried other models like decision trees,
+and it still performed just as well. I chose to submit the one with logistic regression just because
+I felt like it didn't really matter, and it is in general a good solution to binary classification
+problems.
