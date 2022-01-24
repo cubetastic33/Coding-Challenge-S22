@@ -41,7 +41,6 @@ def parse_data():
             x.append([])
             for i, feature in enumerate(features):
                 for label in features[feature]:
-                    # TODO try skipping the missing label
                     if label == row[i + 1]:
                         x[-1].append(1)
                     else:
