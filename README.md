@@ -2,11 +2,11 @@
 
 I used a logistic regression model with the scikit-learn library in python. The file `parse.py`
 handles the conversion of the csv dataset into integer arrays that can be used to train and test
-the network. The model immediately achieved 100% accuracy, which I thought meant something was
+the network. The model immediately achieved 100% accuracy, and I felt like something was
 probably wrong. I tried implementing a simple logistic regression model with pytorch, with a single
 sigmoid layer and BCE loss, and interestingly it had less than 100% accuracy. This meant it was
 likely just that scikit-learn's default implementation of logistic regression was good enough to
-identify a straightforward correlation with the features and whether or not the mushroom is
+identify a straightforward correlation with the features and whether the mushroom is
 poisonous.
 
 To be certain, I tried plotting the predicted probabilities on the test set, and the chart showed
